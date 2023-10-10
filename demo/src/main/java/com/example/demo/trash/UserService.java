@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.trash;
 
 import java.util.ArrayList;
 

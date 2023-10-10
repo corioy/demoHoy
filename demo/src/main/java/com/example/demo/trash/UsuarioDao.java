@@ -1,8 +1,10 @@
-package com.example.demo;
+package com.example.demo.trash;
+
+import com.example.demo.trash.ConexionDAO;
 
 import java.util.ArrayList;
 
-public class UsuarioDao  extends ConexionDAO{
+public class UsuarioDao  extends ConexionDAO {
     public ArrayList<User> listarUsuarios() {
         ArrayList<User> usuarios = new ArrayList();
         try {
